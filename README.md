@@ -1,7 +1,6 @@
 # UBER-analysis
 Using Plotly and Python to do some analysis of Uber data from 2014 and 2015
 
-Uber Trip Analysis: Project Overview
 Context
 The goal of this project was to analyze a large dataset of Uber ride data from New York City to uncover valuable insights into urban mobility patterns. Understanding peak hours, frequent routes, and areas of high demand is crucial for optimizing ride-sharing services and improving urban transportation efficiency. This analysis aimed to transform raw trip data into actionable intelligence.
 
