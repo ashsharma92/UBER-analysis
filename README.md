@@ -1,17 +1,17 @@
 # UBER-analysis
 Using Plotly and Python to do some analysis of Uber data from 2014 and 2015
 
-Context
+# Context
 The goal of this project was to analyze a large dataset of Uber ride data from New York City to uncover valuable insights into urban mobility patterns. Understanding peak hours, frequent routes, and areas of high demand is crucial for optimizing ride-sharing services and improving urban transportation efficiency. This analysis aimed to transform raw trip data into actionable intelligence.
 
-Actions & Techniques Applied
+# Actions & Techniques Applied
 Data Acquisition and Loading:
 
 Six separate CSV files (uber-raw-data-apr14.csv to uber-raw-data-sep14.csv) for Uber pickups in New York City from April to September 2014 were loaded into pandas DataFrames.
 
 An additional dataset (uber-raw-data-janjune-15.csv) for January-June 2015 was loaded for comparative analysis.
 
-Data Preprocessing and Transformation:
+# Data Preprocessing and Transformation:
 
 All 2014 DataFrames were concatenated into a single master DataFrame (df_union) to consolidate the data for comprehensive analysis.
 
@@ -25,7 +25,7 @@ Base codes (e.g., 'B02512', 'B02764') were replaced with more descriptive names 
 
 Similar preprocessing steps were applied to the 2015 dataset, including setting 'Pickup_date' as the index and creating 'Date' and 'Time' columns.
 
-Exploratory Data Analysis (EDA) & Visualization:
+# Exploratory Data Analysis (EDA) & Visualization:
 
 Hourly Trip Analysis:
 
@@ -57,7 +57,7 @@ plotly.express was used to create an interactive scatter map of pickup points fo
 
 The map visualized latitude and longitude data, with points sampled for performance and rendered with partial opacity to show areas of higher density, effectively creating a demand heatmap.
 
-Results
+# Results
 Peak Hours: The analysis revealed distinct peak hours for Uber trips, with demand significantly increasing in the late afternoon and early evening (around 4 PM to 8 PM) on aggregated data for both 2014 and 2015.
 
 Daily and Monthly Trends: Daily trip counts showed fluctuations, while monthly trends indicated a general increase in Uber ridership from April to September in 2014, and similar growth trends in 2015, suggesting expanding service adoption.
